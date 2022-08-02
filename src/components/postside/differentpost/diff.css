@@ -1,0 +1,65 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.lowerpost
+{
+    position:relative;
+    width:100%;
+    overflow:auto;
+    background:rgb(245, 241, 241);
+    
+    
+}
+.lowerpost .posts
+{
+    width:100%;
+    background:white;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.title
+{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    top: 5px;
+    margin-bottom: 15px;
+}
+.title>p:nth-of-type(1)
+{
+    font-weight: bold;
+}
+.image1
+{
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+}
+.image1>img
+{
+    width:100%;
+    height:80%;
+}
+.opnion
+{
+    display:flex;
+    margin-top:-19.5%;
+}
+.opnion div{
+    margin-left:15px ;
+    margin-top: 10px;
+}
+.comment
+{
+    display:flex;
+    
+}
+.comment>p:nth-of-type(1)
+{
+    font-weight: bold;
+    margin-right: 10px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,55 @@
+.folowerscard
+{
+    position:relative;
+    width:100%; 
+    
+}
+h3{
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.fan
+{
+    width:100%;
+    display:flex;
+    margin-bottom: 0px;
+   
+}
+
+.fan .image .info
+{
+    display:flex;
+}
+.fan .people button
+{
+   background:rgb(237, 195, 8);
+   width:200%;
+   border:none;
+   height:4vh;
+   color:white;
+   margin-left:-200%;
+   border-radius: 5px;
+   margin-top: 10px;
+}
+.fan .image .info .imginfo 
+{
+    position:relative;
+    width:15%;
+    height:10vh;
+    overflow: hidden;
+}
+.fan .image .info .imginfo  img{
+    width:100%;
+    
+    border-radius: 50%;
+    margin-top:5px;
+}
+.fan .image .info .img2
+{
+    margin-left:10px;
+}
+.fan .image .info .img2>p:nth-of-type(1)
+{
+    font-weight: bold;
+}
+

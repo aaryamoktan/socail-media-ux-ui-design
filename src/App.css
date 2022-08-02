@@ -1,0 +1,31 @@
+*
+{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+:root
+{
+  --black:#242d49
+}
+.App
+{
+  overflow: hidden;
+  color:var(--black);
+  background: #f3f3f3;
+  padding:1rem 1rem;
+ 
+}
+p
+{
+  font-family: 'Titillium Web', sans-serif;
+}
+.blur
+{
+  position: absolute;
+  width:22rem;
+  height:14rem;
+  border-radius: 50%;
+  background:#a6ddf0;
+  filter:blur(60px)
+}

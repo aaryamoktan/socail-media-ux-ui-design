@@ -1,0 +1,39 @@
+.rightdown
+{
+    width:100%;
+    height:70vh;
+    background:white;
+    margin-top:23%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px rgb(186, 184, 184);
+    overflow: auto;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+.rightdown>h3
+{
+    position:relative;
+    text-transform: capitalize;
+    font-size: 20px;
+    top:20px;
+    left:30px;
+    color:orange;
+    
+}
+.trand>h3
+{
+    position:relative;
+    text-transform: capitalize;
+    font-size: 20px;
+    top:20px;
+    left:30px; 
+}
+.trand>p
+{
+    position:relative;
+    top:20px;
+    left:30px;
+    font-weight: bolder;
+
+}

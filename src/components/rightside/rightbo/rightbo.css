@@ -1,0 +1,19 @@
+.rightbo
+{
+    width:75%;
+    height:5vh;
+    background:rgb(251, 72, 7);
+    color:rgb(253, 249, 249);
+    margin-left:12.5%;
+    text-align: center;
+    margin-top:10%;
+    font-size: larger;
+    border-radius: 10px;
+    justify-content: center;
+}
+.rightbo>p
+{
+    position:relative;
+   top:5px;
+   font-weight: bold;
+}

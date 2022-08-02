@@ -1,0 +1,22 @@
+.logosearch
+{
+    display:flex;
+    gap:0.75rem;border-radius: 10px;
+    padding:5px;
+}
+
+.search{
+    display:flex;
+    gap:0.25rem;
+    background:rgb(234, 234, 234);
+    border-radius:10px;
+}
+.search input{
+    background:transparent;
+    border-radius: 10px;
+    border: none;
+}
+.search .icon
+{
+    margin-top:5px;
+}

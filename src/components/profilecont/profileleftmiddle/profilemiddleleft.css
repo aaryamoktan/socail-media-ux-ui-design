@@ -1,0 +1,72 @@
+.profilemiddleleft
+{
+    width:80%;
+    background:white;
+    height:40vh;
+    margin-top:20px;
+    margin-left:10px;
+    border-radius: 10px;
+}
+.profilemiddleleft .main
+{
+    display:flex;
+    justify-content: space-between;
+}
+.main>h2{
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.main>p{
+    text-transform: capitalize;
+    margin-top:10px;
+}
+.profilemiddleleft .userinfo
+{
+    margin-top:30px;
+    display:flex
+}
+.userinfo>p:nth-of-type(1){
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.userinfo>p:nth-of-type(2){
+    margin-left:15px;
+    margin-top:10px;
+    
+}
+.logout
+{
+    width:40%;
+    height:3.5vh;
+    text-align: center;
+    color:white;
+    background:rgb(248, 174, 36);
+    border-radius: 10px;
+    margin-top:50px;
+    margin-left:58%;
+}
+.logout>p{
+    position:relative;
+    top:5px;
+}
+.followers
+{
+    display:grid;
+    grid-template-columns: 27rem 25rem;
+}
+.count>p:nth-of-type(1){
+    margin-top:-7%;
+   
+}
+.count>p:nth-of-type(2){
+    margin-left:8.5%;
+   
+}
+.myprofile>h4{
+    position: relative;
+    left:10%;
+   
+}
